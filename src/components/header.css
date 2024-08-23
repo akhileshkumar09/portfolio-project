@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid;
+    border-radius: 35px;
+    box-shadow: -1px -1px 2px rgb(123, 123, 123) , 1px 1px 2px rgb(123, 123, 123);
+    /* padding: 10px; */
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.logo{
+    font-size: 2rem;
+}
+.logoTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top:5px ;
+}
+.menuItems{
+    display: flex;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(89, 88, 88);
+    margin: 8px 20px auto auto;
+    font-weight: 500;
+}
+.active-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 8px 20px auto auto;
+    font-weight: 500;
+}
+.focused{
+    background: #000;
+    color: white;
+    border-radius: 25px;
+    padding: 3px 7px;
+}
