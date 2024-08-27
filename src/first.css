@@ -1,0 +1,97 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: flex-start;
+  }
+  
+  .info {
+    margin-bottom: auto;
+    padding: 20px;
+  }
+  
+  .profession-details {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .stickers {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: auto;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .sticker {
+    width: 70px;
+    height: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transform: rotate(0deg);
+    transition: bottom 3s ease, transform 3s ease, left 3s ease, right 3s ease, opacity 1s ease;
+    position: absolute;
+    bottom: 200px;
+    opacity: 1;
+  }
+  
+  .sticker.hidden {
+    opacity: 0;
+  }
+  
+  .sticker.left {
+    left: -100px;
+  }
+  
+  .sticker.right {
+    right: -100px;
+  }
+  
+  .sticker:nth-child(1) {
+    background-color: #f44336; /* Red */
+    transform: rotate(-30deg);
+  }
+  
+  .sticker:nth-child(2) {
+    background-color: #2196f3; /* Blue */
+    transform: rotate(20deg);
+  }
+  
+  .sticker:nth-child(3) {
+    background-color: #ffeb3b; /* Yellow */
+    transform: rotate(-15deg);
+  }
+  
+  .sticker:nth-child(4) {
+    background-color: #9c27b0; /* Purple */
+    transform: rotate(25deg);
+  }
+  
+  .sticker:nth-child(5) {
+    background-color: #3f51b5; /* Indigo */
+    transform: rotate(-10deg);
+  }
+  
+  /* Animation to move stickers to the bottom center slowly */
+  .sticker.sticker.left {
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  
+  .sticker.sticker.right {
+    right: 50%;
+    bottom: 20px;
+    transform: translateX(50%) rotate(0deg);
+  }
+  

@@ -1,8 +1,11 @@
 .header{
+    position: fixed;
+    background: white;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 20px auto 0 10%;
     border: 1px solid;
     border-radius: 35px;
     box-shadow: -1px -1px 2px rgb(123, 123, 123) , 1px 1px 2px rgb(123, 123, 123);
