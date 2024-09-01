@@ -1,0 +1,106 @@
+.sticker{
+    width: 150px;
+    height: 20px;
+    padding: 5px 5px 15px 5px;
+    position: absolute;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .9);
+}
+
+
+.sticker1 {
+    background: conic-gradient(from 90deg, #ff7e5f, #feb47b, #ff7e5f);
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    animation: moveAndRotate1 4s ease-in-out forwards;
+}
+.sticker2 {
+    background: conic-gradient(from 90deg, #bfff5f, #86fe7b, #5fff9c);
+    top: 55%;
+    left: 0px;
+    transform: translateY(-50%);
+    animation: moveAndRotate2 4s ease-in-out forwards;
+}
+.sticker3 {
+    background: conic-gradient(from 90deg, #5fffac, #7bfeef, #5ff2ff);
+    top: 45%;
+    right: 0px;
+    transform: translateY(-50%);
+    animation: moveAndRotate3 4s ease-in-out forwards;
+}
+.sticker4 {
+    background: conic-gradient(from 90deg, #5fbfff, #7b81fe, #272fcb);
+    width: 170px;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    animation: moveAndRotate4 4s ease-in-out forwards;
+}
+.sticker5 {
+    background: conic-gradient(from 90deg, #ff5f64, #fe7bf7, #cb277c);
+    
+    top: 50%;
+    left: -0px;
+    transform: translateY(-50%);
+    animation: moveAndRotate5 4s ease-in-out forwards;
+}
+  
+@keyframes moveAndRotate1 {
+0% {
+    transform: translateY(-50%) rotate(0deg);
+}
+100% {
+    top: calc(90% - 20px);
+    left: 50%;
+    transform: translateX(-50%) rotate(380deg);
+}
+}
+
+@keyframes moveAndRotate2 {
+0% {
+    transform: translateY(-50%) rotate(10deg);
+}
+100% {
+    top: calc(90% - 20px);
+    left: 50%;
+    transform: translateX(-55%) rotate(-370deg);
+}
+}
+@keyframes moveAndRotate3 {
+    0% {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+        top: calc(90% - 20px);
+        left: 55%;
+        transform: translateX(-55%) rotate(-375deg);
+    }
+    }
+
+@keyframes moveAndRotate4 {
+    0% {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+        top: calc(90% - 20px);
+        left: 55%;
+        transform: translateX(-55%) rotate(375deg);
+    }
+    }
+
+@keyframes moveAndRotate5 {
+    0% {
+        top: 60%;
+        right: 0;
+        transform: translateY(-50%) rotate(-20deg);
+      }
+      100% {
+        top: calc(90% - 20px);
+        left: 50%;
+        transform: translateX(-50%) rotate(-385deg);
+      }
+    }    
