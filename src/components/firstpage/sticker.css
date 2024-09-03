@@ -1,7 +1,7 @@
 .sticker{
     width: 150px;
-    height: 20px;
-    padding: 5px 5px 15px 5px;
+    /* height: 30px; */
+    padding: 5px 5px 10px 5px;
     position: absolute;
     text-align: center;
     font-size: 1.3rem;
@@ -26,6 +26,7 @@
     animation: moveAndRotate2 4s ease-in-out forwards;
 }
 .sticker3 {
+    width: 160px;
     background: conic-gradient(from 90deg, #5fffac, #7bfeef, #5ff2ff);
     top: 45%;
     right: 0px;
