@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.skillCard{
+    position: relative;
+    background: white;
+    width: 180px;
+    height: 200px;
+    overflow: hidden;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: -2px 3px 3px rgb(109, 107, 107), inset 1px -1px 1px rgb(109, 107, 107);
+}
+.skillCard p{
+    /* padding-left: 20px; */
+    padding: 2px 0 1px 10px;
+    font-weight: 500;
+}

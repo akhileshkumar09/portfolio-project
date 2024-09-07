@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import FirstPage from '../components/FirstPage'
 import Story from './story/Story'
 import Work from './work/Work'
+import Skills from './skill/Skills'
 
 function MainPage() {
   return (
@@ -11,6 +12,7 @@ function MainPage() {
         <FirstPage/>
         <Story/>
         <Work/>
+        <Skills/>
     </div>
   )
 }

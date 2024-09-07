@@ -1,0 +1,55 @@
+.skills{
+    width: 84%;
+    min-height: 100vh;
+    margin: 150px auto;
+}
+.intro-light-text{
+    position: relative;
+    width: 160px;
+    font-family: "Sacramento", cursive;
+    text-align: left;
+    color: gray;
+    font-weight: 100;
+    font-size: 1.5rem;
+    transform: rotate(-10deg);
+    left: 250px;
+}
+.intro-dark-text{
+    width: 400px;
+    font-size: 2.2rem;
+    margin: auto;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.skills-card{
+    width: 600px;
+    margin: 70px auto;
+    display: flex;
+}
+
+@keyframes slideFromLeft {
+    0% {
+      transform: translateX(-300px) rotate(-15deg); /* Start off-screen left */
+    }
+    100% {
+      transform: translateX(0) rotate(-15deg); /* End in final position */
+    }
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(300px) rotate(7deg); /* Start off-screen right */
+    }
+    100% {
+      transform: translateX(0) rotate(7deg); /* End in final position */
+    }
+  }
+  
+  @keyframes slideFromBottom {
+    0% {
+      transform: translateY(300px) rotate(2deg); /* Start off-screen bottom */
+    }
+    100% {
+      transform: translateY(0) rotate(2deg); /* End in final position */
+    }
+  }

@@ -50,6 +50,9 @@
     padding: 5px 10px;
     font-weight: 500;
 }
+.open-case:active{
+    box-shadow: 3px 3px 5px black;
+}
 .arrow{
     font-size: 1.3rem;
 }
