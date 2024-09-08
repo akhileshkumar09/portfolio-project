@@ -15,18 +15,17 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-}
-.logo{
-    font-size: 2rem;
+    padding-left: 20px;
 }
 .logoTitle{
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top:5px ;
+    /* margin-top:1px ; */
 }
 .menuItems{
     display: flex;
     gap: 20px;
+    margin-bottom: 3px;
 }
 .link{
     text-decoration: none;
@@ -46,3 +45,36 @@
     border-radius: 25px;
     padding: 3px 7px;
 }
+
+
+/* Base styling for the green indicator */
+.indicator {
+    width: 10px;
+    height: 10px;
+    margin-top: 12px;
+    background-color: #00ff00; /* Green color */
+    border-radius: 50%; /* Make it circular */
+    position: relative; /* Allows positioning of the shadow */
+    
+    /* Initial shadow to give a small glow */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+    
+    /* Animation */
+    animation: ripple 2s infinite ease-out;
+  }
+  
+  /* Keyframes for ripple animation */
+  @keyframes ripple {
+    0% {
+      /* Start with a small glow */
+      box-shadow: 0 0 10px rgba(0, 255, 0, 1);
+    }
+    50% {
+      /* Expand the glow significantly */
+      box-shadow: 0 0 20px rgba(0, 255, 0, 1), 0 0 40px rgba(0, 255, 0, 1), 0 0 60px rgba(0, 255, 0, 1);
+    }
+    100% {
+      /* End with a very large, fading glow */
+      box-shadow: 0 0 30px rgba(0, 255, 0, 1), 0 0 60px rgba(0, 255, 0, 1), 0 0 90px rgb(45, 96, 45);
+    }
+  }

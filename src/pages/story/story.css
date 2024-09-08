@@ -55,3 +55,26 @@
     font-size: 1.7rem;
     font-weight: 700;
 }
+.story1{
+    animation: animate1 2s ease-out;
+}
+.story2{
+    animation: animate2 2s ease-out;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100px) rotate(10deg); /* Start off-screen right */
+      }
+      100% {
+        transform: translateY(0) rotate(10deg); /* End in final position */
+      }
+}
+@keyframes animate1 {
+    0% {
+        transform: translateY(-100px) rotate(-5deg); /* Start off-screen right */
+      }
+      100% {
+        transform: translateY(0) rotate(-5deg); /* End in final position */
+      }
+}

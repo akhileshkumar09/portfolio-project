@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className='header'>
         <div className='logos'>
-            <div className='logo'>❤️</div>
+            <div className='container'><div className='indicator'></div></div>
             <div className='logoTitle'>Praval Gautam</div>
         </div>
 
