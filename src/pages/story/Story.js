@@ -2,7 +2,7 @@ import React from 'react'
 import './story.css'
 function Story() {
   return (
-    <div className='story'>
+    <div className='story' id='story'>
         {/* <h2>Story</h2> */}
 
         <div className='story-detail'>

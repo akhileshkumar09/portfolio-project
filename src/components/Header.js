@@ -1,8 +1,8 @@
 import React from 'react'
 import './header.css'
-import {NavLink} from 'react-router-dom'
 
-function Header() {
+
+function Header({activeSection}) {
   return (
     <div className='header'>
         <div className='logos'>
@@ -11,12 +11,12 @@ function Header() {
         </div>
 
         <div className='menuItems'>
-            <NavLink to='/story' className ={({isActive})=>(isActive ? 'active-link' : 'link')}>Story</NavLink> 
-            <NavLink to='/works' className ={({isActive})=>(isActive ? 'active-link' : 'link')}>Works</NavLink> 
-            <NavLink to='/skills' className ={({isActive})=>(isActive ? 'active-link' : 'link')}>Skills</NavLink> 
-            <NavLink to='/explorations' className ={({isActive})=>(isActive ? 'active-link' : 'link')}>Explorations</NavLink> 
-            <NavLink to='/connect' className ={({isActive})=>(isActive ? 'active-link' : 'link')}>Connect</NavLink> 
-            <NavLink to='/say-hello' className ={({isActive})=>(isActive ? 'active-link focused' : 'link focused')}>Say "Hello"</NavLink> 
+            <a href='#story' className ={activeSection === 'story' ? 'active-link' : 'link'}>Story</a> 
+            <a href='#works' className ={activeSection === 'works' ? 'active-link' : 'link'}>Works</a> 
+            <a href='#skills' className ={activeSection === 'skills' ? 'active-link' : 'link'}>Skills</a> 
+            <a href='#explorations' className ={activeSection === 'explorations' ? 'active-link' : 'link'}>Explorations</a> 
+            <a href='#connect' className ={activeSection === 'connect' ? 'active-link' : 'link'}>Connect</a> 
+            <a href='#say-hello' className ={ 'active-link focused link focused'}>Say "Hello"</a> 
             
         </div>
     </div>

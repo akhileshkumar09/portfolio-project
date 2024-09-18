@@ -31,7 +31,7 @@ function Skills() {
     backgroundColor : '#6A9C89',
   }
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
         <div className='intro-light-text'>
             <p>When I'm not out with my wife & dog...</p>
         </div>

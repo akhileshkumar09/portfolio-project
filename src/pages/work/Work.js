@@ -4,7 +4,7 @@ import WorkPic from '../../components/work-component/WorkPic'
 
 function Work() {
   return (
-    <div className='work'>
+    <div className='work' id='works'>
        <h2>Selected Work from<br/> 2022 the present</h2>
        <WorkPic brand='Memex' location='🏳️‍🌈 Germani, angle investors'
         detail='Organize, take notes and discuss the web without context switches & copy pasting. By yourself, with your peers and enhanced by AI.'

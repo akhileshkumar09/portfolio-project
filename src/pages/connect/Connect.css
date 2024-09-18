@@ -1,0 +1,45 @@
+.connect{
+    width: 84%;
+    margin:  auto;
+    text-align: left;
+    min-height: 100vh;
+    box-shadow: .3px .3px 2px rgb(83, 82, 82);
+    border-radius: 40px;
+    padding: 200px 50px 0 50px;
+}
+.connect h2{
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.connect button{
+    background: #000;
+    color: white;
+    border-radius: 25px;
+    padding: 3px 7px;
+    margin-bottom: 30px;
+    cursor: pointer;;
+}
+.connect hr{
+    margin-bottom: 30px;
+}
+.connect-option{
+    display: flex;
+    gap: 350px;
+}
+.email, .social-media p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.email-id{
+    font-weight: 500;
+    cursor: pointer;
+}
+span{
+    box-shadow: .3px .3px 2px rgb(83, 82, 82);
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
